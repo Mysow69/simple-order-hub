@@ -4,9 +4,9 @@ import { toast } from "@/hooks/use-toast";
 type Item = { id: string; name: string; price: number; emoji: string };
 
 const ITEMS: Item[] = [
-  { id: "pizza", name: "Pizza", price: 250, emoji: "🍕" },
+  { id: "pizzatester", name: "Pizzatester", price: 250, emoji: "🍕" },
   { id: "maggi", name: "Maggi", price: 60, emoji: "🍜" },
-  { id: "cupcake", name: "Cupcake", price: 80, emoji: "🧁" },
+  { id: "cupcakedev", name: "Cupcakedev", price: 80, emoji: "🧁" },
   { id: "burger", name: "Burger", price: 150, emoji: "🍔" },
   { id: "fries", name: "Fries", price: 100, emoji: "🍟" },
   { id: "coffee", name: "Coffee", price: 90, emoji: "☕" },
